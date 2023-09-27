@@ -22,4 +22,4 @@ jobs:
     - name: Build and push Docker image
       run: |
         docker build . -t mkodeh2024/static-website:latest
-        docker push mkodeh2024/static-website:latest
+        docker push mkodeh2024/static-website:latest      
